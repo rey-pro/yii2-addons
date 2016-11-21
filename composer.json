@@ -12,11 +12,6 @@
             "homepage": "https://github.com/rey-pro/yii2-addons"
         }
     ],
-    "extra": {
-        "branch-alias": {
-          "dev-master": "2.0.1.x-dev"
-        }
-      },
     "require": {
     	"php": ">=5.4.0",
     	"yiisoft/yii2": "*",
