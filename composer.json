@@ -7,7 +7,7 @@
     "widget",
     "addons",
     "font",
-    "awesome",
+    "awesome"
   ],
   "homepage": "https://github.com/rey-pro/yii2-addons",
   "type": "yii2-extension",
