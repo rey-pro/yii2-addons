@@ -5,7 +5,9 @@
     "yii2",
     "extension",
     "widget",
-    "addons"
+    "addons",
+    "font",
+    "awesome",
   ],
   "homepage": "https://github.com/rey-pro/yii2-addons",
   "type": "yii2-extension",
@@ -18,15 +20,17 @@
     }
   ],
   "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.0-dev"
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
     }
   },
-  
+
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
-    "bower-asset/slimscroll": "~1.3.3"
+    "bower-asset/slimscroll": "~1.3.3",
+    "fortawesome/font-awesome": "~4.7"
   },
   "autoload": {
     "psr-4": {

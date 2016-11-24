@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 rey-pro
  * @license https://github.com/rey-pro/yii2-addons/blob/master/LICENSE
  */
-namespace rey\slimscroll;
+namespace rey\addons;
 
 class SlimscrollAsset extends \yii\web\AssetBundle
 {
