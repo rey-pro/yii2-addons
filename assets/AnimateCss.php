@@ -5,32 +5,30 @@
  */
 
 namespace rey\addons;
-
 use \yii\web\AssetBundle;
 
-class FontawesomeAsset extends AssetBundle
+class AnimateCss extends AssetBundle
 {
     /**
      * @inherit
      */
-    public $sourcePath = '@vendor/fortawesome/font-awesome';
+    public $sourcePath = '@vendor/mrohnstock/animate.css';
     /**
      * @inherit
      */
     public $css = [
-        'css/font-awesome.min.css',
-    ];
-
+    'css/animate.min.css',
+];
     /**
      * Initializes the bundle.
      * Set publish options to copy only necessary files (in this case css and font folders)
      * @codeCoverageIgnore
      */
     public function init()
-    {
-        parent::init();
-        $this->publishOptions['beforeCopy'] = function ($from, $to) {
-            return preg_match('%(/|\\\\)(fonts|css)%', $from);
-        };
-    }
+{
+    parent::init();
+    $this->publishOptions['beforeCopy'] = function ($from, $to) {
+        return preg_match('%(/|\\\\)(fonts|css)%', $from);
+    };
+}
 }

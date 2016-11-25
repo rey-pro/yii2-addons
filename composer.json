@@ -31,7 +31,8 @@
     "yiisoft/yii2": "*",
     "bower-asset/slimscroll": "~1.3.3",
     "fortawesome/font-awesome": "~4.7",
-    "onokumus/metismenu": "~v2.5.2"
+    "onokumus/metismenu": "~v2.5.2",
+    "drmonty/animate.css": "~3.5.2"
   },
   "autoload": {
     "psr-4": {
