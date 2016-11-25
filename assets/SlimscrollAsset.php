@@ -5,8 +5,9 @@
  * @license https://github.com/rey-pro/yii2-addons/blob/master/LICENSE
  */
 namespace rey\addons;
+use yii\web\AssetBundle;
 
-class SlimscrollAsset extends \yii\web\AssetBundle
+class SlimscrollAsset extends AssetBundle
 {
 	// The files are not web directory accessible, therefore we need
 	// to specify the sourcePath property. Notice the @bower alias used.
