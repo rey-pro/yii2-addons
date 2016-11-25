@@ -35,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "rey\\yii2-addons\\": [
+      "rey-pro\\yii2-addons\\": [
         "assets/",
         "widgets/"
       ]
