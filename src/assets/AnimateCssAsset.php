@@ -8,7 +8,7 @@ namespace rey\addons\assets;
 
 use \yii\web\AssetBundle;
 
-class AnimateCss extends AssetBundle
+class AnimateCssAsset extends AssetBundle
 {
     /**
      * @inherit

@@ -9,6 +9,7 @@ namespace rey\addons\widgets;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\Widget;
+use rey\addons\assets\SlimscrollAsset;
 
 class SlimscrollWidget extends Widget
 {
