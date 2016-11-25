@@ -5,6 +5,7 @@
  * @license https://github.com/rey-pro/yii2-addons/blob/master/LICENSE
  */
 namespace rey\addons\assets;
+
 use yii\web\AssetBundle;
 
 class MetisMenuAsset extends AssetBundle
