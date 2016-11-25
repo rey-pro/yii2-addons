@@ -11,7 +11,7 @@ class MetisMenuAsset extends AssetBundle
 {
     // The files are not web directory accessible, therefore we need
     // to specify the sourcePath property. Notice the @bower alias used.
-    public $sourcePath = '@vendor/onokumus/metisMenu/dist';
+    public $sourcePath = '@vendor/onokumus/metismenu/dist';
 
     /**
      * @inherit
