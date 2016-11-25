@@ -12,7 +12,7 @@ class AnimateCss extends AssetBundle
     /**
      * @inherit
      */
-    public $sourcePath = '@vendor/mrohnstock/animate.css';
+    public $sourcePath = '@vendor/drmonty/animate.css';
     /**
      * @inherit
      */
