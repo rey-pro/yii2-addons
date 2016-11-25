@@ -4,12 +4,13 @@
  * @copyright Copyright (c) 2016 rey-pro
  * @license https://github.com/rey-pro/yii2-addons/blob/master/LICENSE
  */
-namespace rey\addons;
+namespace rey\addons\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
+use yii\base\Widget;
 
-class SlimscrollWidget extends \yii\base\Widget
+class SlimscrollWidget extends Widget
 {
 	/**
 	 * SlimScroll options

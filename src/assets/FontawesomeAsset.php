@@ -4,7 +4,7 @@
  * User: Rey
  */
 
-namespace rey\addons;
+namespace rey\addons\assets;
 
 use \yii\web\AssetBundle;
 
