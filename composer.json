@@ -35,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "rey-pro\\yii2-addons\\": [
+      "rey\\yii2-addons\\": [
         "src/"
       ]
     }
