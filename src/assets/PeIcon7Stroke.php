@@ -13,7 +13,7 @@ class PeIcon7Stroke extends AssetBundle
     /**
      * @inherit
      */
-    public $sourcePath = '@vendor/rey-pro/dist/pe-icon-7-stroke';
+    public $sourcePath = '@vendor/rey-pro/yii2-addons/dist/pe-icon-7-stroke';
     /**
      * @inherit
      */
