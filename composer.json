@@ -25,7 +25,6 @@
       "bower-asset-library": "vendor/bower"
     }
   },
-
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
@@ -36,8 +35,12 @@
   },
   "autoload": {
     "psr-4": {
-      "rey-pro\\yii2-addons\\assets\\": "",
-      "rey-pro\\yii2-addons\\widgets\\": ""
+      "psr-4": {
+        "rey\\yii2-addons\\": [
+          "assets/",
+          "widgets/"
+        ]
+      }
     }
   }
 }
