@@ -34,10 +34,6 @@
     "drmonty/animate.css": "~3.5.2"
   },
   "autoload": {
-    "psr-4": {
-      "rey\\addons\\": [
-        "src/"
-      ]
-    }
+    "classmap": ["src"]
   }
 }
