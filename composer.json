@@ -34,7 +34,7 @@
     "drmonty/animate.css": "~3.5.2",
     "bower-asset/flot": "~0.8.3",
     "bower-asset/icheck": "*",
-    "bower-asset/sparklines": "*"
+    "bower-asset/bower-jquery-sparkline": "~2.1.2"
   },
   "autoload": {
     "classmap": ["src"]
