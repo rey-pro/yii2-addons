@@ -7,7 +7,7 @@
 namespace rey\addons\assets;
 use yii\web\AssetBundle;
 
-class SparklineAssets extends AssetBundle
+class SparkLineAssets extends AssetBundle
 {
     // The files are not web directory accessible, therefore we need
     // to specify the sourcePath property. Notice the @bower alias used.
