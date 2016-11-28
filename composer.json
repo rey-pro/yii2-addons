@@ -32,7 +32,8 @@
     "fortawesome/font-awesome": "~4.7",
     "onokumus/metismenu": "~v2.5.2",
     "drmonty/animate.css": "~3.5.2",
-    "bower-asset/flot": "~0.8.3"
+    "bower-asset/flot": "~0.8.3",
+    "bower-asset/icheck": "*"
   },
   "autoload": {
     "classmap": ["src"]
