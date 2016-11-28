@@ -83,6 +83,7 @@ class ICheckAsset extends AssetBundle
             $jsFile,
         ];
     }
+
     /**
      * @inheritdoc
      */
