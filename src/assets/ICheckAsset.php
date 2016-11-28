@@ -59,7 +59,6 @@ class ICheckAsset extends AssetBundle
     const SKIN_SQUARE_YELLOW = 'square/yellow';
 
     public static $skin = 'all';
-
     public $sourcePath = '@bower/icheck';
 
     public $baseUrl = '@web';
